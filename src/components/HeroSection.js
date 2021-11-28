@@ -14,6 +14,7 @@ function HeroSection() {
         <h1 className="text-center ">Parag Coimbatore</h1>
         </>
     )
+    
 }
 
 export default HeroSection
