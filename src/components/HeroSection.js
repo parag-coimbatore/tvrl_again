@@ -8,9 +8,7 @@ function HeroSection() {
             
             <video src ="/videos/video-2.mp4" autoPlay loop muted />
             
-            <div className="text-box">
-                <h1 className="text-styles">Lets explore the world</h1>
-            </div>
+            
         </div>
 
         <h1 className="text-center ">Parag Coimbatore</h1>

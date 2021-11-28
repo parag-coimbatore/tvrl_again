@@ -3,43 +3,80 @@ import React from 'react'
 function Services() {
     return (
         <>
-            <div id="carouselExampleDark" className="carousel carousel-dark slide "  data-bs-ride="carousel">
-                <div className="carousel-indicators" >
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div className="carousel-inner" >
-                    <div className="carousel-item active" data-bs-interval="400">
-                        <img src="/images/img-8.jpg" style={{height:'410px', width: '410px'}} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block" color="white">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item" data-bs-interval="400" >
-                        <img src="/images/img-8.jpg" style={{height:'410px', width: '410px'}} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item" >
-                        <img src="/images/img-8.jpg" style={{height:'410px', width: '410px'}} className="d-block w-100" alt="..." />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-5" >
+                <div class="col" style={{width:'18rem'}} > 
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center text-center" >
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/service1"} class="btn btn-primary ">Go somewhere</a>
                         </div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+                <div class="col" style={{width:'18rem'}} >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                            <a href={"http://localhost:3000/service2"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style={{width:'18rem'}} >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <a href={"http://localhost:3000/service3"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style={{width:'18rem'}} >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">/
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/service4"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mx-5" style={{width:'18rem'}}  >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/service5"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-5" style={{width:'18rem'}} >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                            <a href={"http://localhost:3000/service6"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-5" style={{width:'18rem'}} >
+                    <div class="card h-100">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                            <a href={"http://localhost:3000/service6"} class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
         </>
     )

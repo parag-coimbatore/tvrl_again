@@ -36,6 +36,8 @@ function Navbar() {
                                     SignUp
                                 </NavLink>
                             </li>
+
+                            
                         </ul>
 
                     </div>
