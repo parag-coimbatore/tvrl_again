@@ -1,26 +1,14 @@
 import React from 'react'
 
 function Signup() {
-    return (
-        <>
-          <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1" >Email address</label>
-    <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" style={{width: '50%', marginLeft:'19rem'}} placeholder="Enter email"/>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form> 
-        </>
-    )
+  return (
+    <>
+      <div class="form-outline col-xs-6 col-xs-offset-3">
+        <label class="form-label " for="typeEmail"  >Email input</label>
+        <input type="email" id="typeEmail" class="form-control" style={{alignContent:'center'}} />
+      </div>
+    </>
+  )
 }
 
 export default Signup
